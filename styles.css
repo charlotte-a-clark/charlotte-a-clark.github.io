@@ -37,16 +37,26 @@ h1.main {
   text-align: center;
 }
 
+h1.topabout {
+  font-family: "Wanderlust";
+  color:#15746B;
+  font-size: 25px;
+  text-align: center;
+  margin-top: 50px;
+}
 h1.about {
   font-family: "Wanderlust";
   color:#15746B;
   font-size: 25px;
   text-align: center;
+  margin-top: 25px;
 }
 
 div.details {
-  text-align: center;
-  vertical-align: middle;
+  align-items:center;
+  justify-content: center;
+  display: flex;
+  position: relative;
 }
 
 h2 {
@@ -86,58 +96,66 @@ p.blurb {
   text-align: right;
   max-width: 400px;
   position:absolute;
-  top:70px;
-  left:65px;
+  align-self: anchor-center;
+  justify-self: anchor-center;
+  transform: translate(-254px, -35px);
 }
 
 .problemsolve {
   text-align: left;
   max-width: 400px;
   position:absolute;
-  top: 90px;
-  right:65px;
+  align-self: anchor-center;
+  justify-self: anchor-center;
+  transform: translate(251px, -12px);
 }
 
 .socialimpact {
   text-align: left;
   max-width: 400px;
   position: absolute;
-  top: 230px;
-  left:490px;
+  align-self: anchor-center;
+  justify-self: anchor-center;
+  transform: translate(91px, 99px);
 }
 
 .complexclarity {
   text-align: right;
   max-width: 410px;
   position: absolute;
-  top:130px;
-  left:50px;
+  align-self: anchor-center;
+  justify-self: anchor-center;
+  transform: translate(-254px, 24px);
 }
 
 .builddoc {
   text-align: left;
   max-width: 400px;
   position: absolute;
-  top: 50px;
-  right:120px;
+  align-self: anchor-center;
+  justify-self: anchor-center;
+  transform: translate(184px, -88px);
 }
 
 .iteradapt {
   text-align: left;
   max-width: 400px;
-  position: absolute;
-  top: 230px;
-  right:100px;
+  position:absolute;
+  align-self: anchor-center;
+  justify-self: anchor-center;
+  transform: translate(207px, 94px);
 }
 
 div.pillar {
-  height: 350px;
+  height: 300px;
   position: relative;
+  align-content: center;
 }
 
 div.framework {
   height: 350px;
   position: relative;
+  align-content: center;
 }
 
 div.experience {
@@ -152,6 +170,10 @@ div.career {
   justify-content: center;
 }
 
+div.1stexpcol {
+  
+}
+
 div.expcol {
   padding: 0px 10px 0px 10px;
 }
@@ -159,12 +181,16 @@ div.expcol {
 img.overlaps {
   height: 80px;
   width: 90px;
-  margin-top: 100px;
 }
 
 img.expoverlap {
   height: 80px;
   width: 90px;
+  padding: 0px 15px 0px 15px;
+}
+img.singoverlap {
+  height: 80px;
+  width: 80px;
   padding: 0px 15px 0px 15px;
 }
 
